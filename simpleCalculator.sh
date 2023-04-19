@@ -4,7 +4,8 @@ echo "Enter an arithmetic operation:"
 read input
 re='^[-0-9 ]+ [-,+,*,/] [-0-9]+$'
 if [[ $input =~ $re ]]; then
-    echo "Operation check passed!"
+    arithmetic_result=$(( input ))
+    printf "%s\n" "$arithmetic_result"
 else
     echo "Operation check failed!"
 fi
