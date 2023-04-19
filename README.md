@@ -3,15 +3,15 @@ A long time ago ancient people used fingers to calculate. Of course, this method
 
 ## Description
     1. Start with a message Enter an arithmetic operation:
-    <br><br>
+
     2. Read two numbers and one operator on one line from the standard input;
-    <br><br>
+  
     3. Check whether the numbers are integers. Numbers could be positive, negative, or zeros;
-    <br><br>
+   
     4. Check whether an operator is correct. Operators can be multiplication, division, addition, and subtraction;
-    <br><br>
+    
     5. If everything is correct, output the following message: Operation check passed! Otherwise, output Operation check failed!
-    <br><br>
+    
 
 ## Examples
 ```
