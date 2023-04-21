@@ -2,9 +2,9 @@
 
 echo "Enter an arithmetic operation:"
 read input
-re='^[-0-9 ]+ [-,+,*,/] [-0-9]+$'
+re='^[-0-9\.]+ [-,+,*,/,^] [-0-9\.]+$'
 if [[ $input =~ $re ]]; then
-    arithmetic_result=$(( input ))
+    arithmetic_result=$(echo "scale=2; $input" | bc -l)
     printf "%s\n" "$arithmetic_result"
 else
     echo "Operation check failed!"
