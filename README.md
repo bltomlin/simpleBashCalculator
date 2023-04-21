@@ -6,11 +6,11 @@ A long time ago ancient people used fingers to calculate. Of course, this method
 
     2. Read two numbers and one operator on one line from the standard input;
   
-    3. Check whether the numbers are integers. Numbers could be positive, negative, or zeros;
+    3. Check whether the numbers are numbers. Numbers could be positive, negative, or zeros;
    
-    4. Check whether an operator is correct. Operators can be multiplication, division, addition, and subtraction;
+    4. Check whether an operator is correct. Operators can be multiplication, division, addition, exponential and subtraction;
     
-    5. If everything is correct, output the following message: Operation check passed! Otherwise, output Operation check failed!
+    5. If everything is correct, output the following message: "Operation check passed!" with the correct calculation. Otherwise, output Operation check failed!
     
 
 ## Examples
@@ -20,36 +20,36 @@ The greater-than symbol followed by a space (> ) represents the user input. Note
 Example 1:
 
 Enter an arithmetic operation:
-> 66 + 89
-Operation check passed!
+> 5 + c
+Operation check failed!
 
 Example 2:
 
 Enter an arithmetic operation:
-> -56 - 99
-Operation check passed!
+> 22 / -7
+-3.14
 
 Example 3:
 
 Enter an arithmetic operation:
-> cat / 5
-Operation check failed!
+> 5.4 / 2.8
+1.92
 
 Example 4:
 
 Enter an arithmetic operation:
-> 55 +
-Operation check failed!
+> 12 * -3
+-36
 
 Example 5:
 
 Enter an arithmetic operation:
-> 56 + 5665 +
-Operation check failed!
+> 5 - -25
+30
 
 Example 6:
 
 Enter an arithmetic operation:
-> 0.5 + 3
-Operation check failed!
+> 2 ^ 3
+8
 ```
